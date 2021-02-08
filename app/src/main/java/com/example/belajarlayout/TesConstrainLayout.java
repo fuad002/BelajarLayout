@@ -8,6 +8,6 @@ public class TesConstrainLayout extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tes_constrain_layout);
+        setContentView(R.layout.activity_tes_linear_layout);
     }
 }

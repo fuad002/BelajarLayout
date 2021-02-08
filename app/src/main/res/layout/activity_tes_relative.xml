@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TesRelativeLayout">
+
+    <TextView
+        android:id="@+id/satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Informaasi Pembelian"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Pembelian : INV/20210202/xx/1/112432"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/satu"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barang Yang dibeli :"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dua"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/img123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="25dp">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/empat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Susu Frisian Flag"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tiga"
+        android:layout_marginLeft="120dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/lima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp. 10.000/Pcs"
+        android:layout_below="@+id/empat"
+        android:layout_marginLeft="120dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/enam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Pembelian : 50"
+        android:layout_below="@+id/lima"
+        android:layout_marginLeft="120dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tujuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:layout_toRightOf="@+id/empat"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="67dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/delapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 500.000"
+        android:layout_toRightOf="@+id/enam"
+        android:layout_marginTop="175dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="30dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/img456"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="25dp">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/sembilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masako"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="120dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/sepuluh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp. 500/Pcs"
+        android:layout_below="@+id/sembilan"
+        android:layout_marginLeft="120dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/sebelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Pembelian : 10"
+        android:layout_below="@+id/sepuluh"
+        android:layout_marginLeft="120dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/duabelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:layout_toRightOf="@+id/sembilan"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="125dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tigabelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 500"
+        android:layout_toRightOf="@+id/sepuluh"
+        android:layout_marginTop="265dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/empatbelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metode Pembayaran"
+        android:layout_below="@+id/tigabelas"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/limabelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COD"
+        android:layout_toRightOf="@+id/empatbelas"
+        android:layout_below="@+id/tigabelas"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:id="@+id/enambelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pembayaran Awal"
+        android:layout_below="@+id/limabelas"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/tujubelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 100.000"
+        android:layout_below="@+id/empatbelas"
+        android:layout_toRightOf="@+id/enambelas"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/delapanbelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diskon"
+        android:layout_below="@+id/tujubelas"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/delapanbelas"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/cardview_dark_background"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/sembilanbelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:layout_below="@id/delapanbelas"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/duapuluh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 405.000"
+        android:layout_below="@+id/delapanbelas"
+        android:layout_toRightOf="@+id/sembilanbelas"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="20sp"/>
+    
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="@color/merah"
+        android:textColor="@color/putih"
+        android:layout_below="@+id/sembilanbelas"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="18dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:backgroundTint="@color/biru"
+        android:textColor="@color/putih"
+        android:layout_below="@+id/sembilanbelas"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="18dp"/>
+
+
+</RelativeLayout>
